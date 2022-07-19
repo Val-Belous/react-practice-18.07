@@ -1,11 +1,12 @@
 import PropTypes from 'prop-types';
+import { Text, Item, Par } from './FeaturesGalleryItem.styled';
 
-export const FeaturesGalleryItem = ({ title, content }) => {
+export const FeaturesGalleryItem = ({ title, content, status }) => {
   return (
-    <li>
-      <h3>{title}</h3>
-      <p>{content}</p>
-    </li>
+    <Item>
+      <Text>{title}</Text>
+      <Par status={status}>{content}</Par>
+    </Item>
   );
 };
 

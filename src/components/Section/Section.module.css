@@ -1,0 +1,12 @@
+.section {
+}
+
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text {
+  font-size: 20px;
+}

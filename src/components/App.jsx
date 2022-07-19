@@ -4,7 +4,7 @@ import featuresData from '../data/features.json';
 
 export const App = () => {
   return (
-    <Section title="loh">
+    <Section>
       <FeaturesGallery features={featuresData} />
     </Section>
   );
